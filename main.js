@@ -108,8 +108,8 @@ function initThemeMode() {
   })
 }
 
+initThemeMode()
 initThemeModeChangeBtn()
 drawFace()
 drawPointer()
 setInterval(drawPointer, 1000)
-initThemeMode()
